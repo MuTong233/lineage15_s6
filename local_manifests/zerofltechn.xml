@@ -3,7 +3,7 @@
 
 <remote name="nx-github"
 	fetch="https://github.com/"
-	revision="nx-7.1" />
+	revision="nx-8.1" />
 
 <remote name="rs-github"
 	fetch="https://github.com/"
@@ -13,20 +13,20 @@
 <project name="LineageOS/android_external_busybox" path="external/busybox" remote="github" />
 
 <!-- Kernel -->
-<project path="kernel/samsung/exynos7420" name="riversky/android_kernel_samsung_exynos7420" remote="rs-github" />
+<project path="kernel/samsung/exynos7420" name="TeamNexus/android_kernel_samsung_exynos7420" remote="nx-github" />
 
 <!-- Device Trees -->
-<project path="device/samsung/zero-common" name="riversky/android_device_samsung_zero-common" remote="rs-github" revision="nx-7.1"/>
+<project path="device/samsung/zero-common" name="TeamNexus/android_device_samsung_zero-common" remote="nx-github" />
 <project path="device/samsung/zerofltechn" name="riversky/android_device_samsung_zerofltechn" remote="rs-github" />
 
 <!-- Vendor folder -->
-<project path="vendor/samsung/zero-common" name="riversky/android_vendor_samsung_zero-common" remote="rs-github" revision="nx-7.1" />
+<project path="vendor/samsung/zero-common" name="TeamNexus/android_vendor_samsung_zero-common" remote="nx-github" />
 <project path="vendor/samsung/zerofltechn" name="riversky/android_vendor_samsung_zerofltechn" remote="rs-github" />
 
 <!-- Hardware -->
-<project path="hardware/samsung_slsi-cm/exynos" name="riversky/android_hardware_samsung_slsi-cm_exynos" remote="rs-github" />
-<project path="hardware/samsung_slsi-cm/exynos5" name="riversky/android_hardware_samsung_slsi-cm_exynos5" remote="rs-github" />
-<project path="hardware/samsung_slsi-cm/exynos7420" name="riversky/android_hardware_samsung_slsi-cm_exynos7420" remote="rs-github" />
+<project path="hardware/samsung_slsi-cm/exynos" name="TeamNexus/android_hardware_samsung_slsi-cm_exynos" remote="nx-github" />
+<project path="hardware/samsung_slsi-cm/exynos5" name="TeamNexus/android_hardware_samsung_slsi-cm_exynos5" remote="nx-github" />
+<project path="hardware/samsung_slsi-cm/exynos7420" name="TeamNexus/android_hardware_samsung_slsi-cm_exynos7420" remote="nx-github" />
 <project path="hardware/samsung" name="TeamNexus/android_hardware_samsung" remote="nx-github" />
 <project path="hardware/samsung_slsi-cm/openmax" name="LineageOS/android_hardware_samsung_slsi-cm_openmax" remote="github" />
 
